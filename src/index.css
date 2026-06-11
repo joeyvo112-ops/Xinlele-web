@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Manrope:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-brand: "Dancing Script", cursive;
+  
+  --color-primary: #009E49;
+  --color-primary-light: #10B981;
+  --color-secondary: #007335;
+  --color-accent: #FCEA10;
+  --color-accent-hover: #E3D100;
+  --color-surface-cream: #FFFDF0;
+  --color-surface-card: #ffffff;
+  --color-earth-dark: #132517;
+  --color-earth-muted: #4A5F4E;
+  --color-border-earth: #ECE6C8;
+  --color-navy-dark: #0F2617;
+}
+
+body {
+  background-color: var(--color-surface-cream);
+  color: var(--color-earth-dark);
+  font-family: var(--font-sans);
+}
+
+/* Custom slick slide scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f7ebe1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3b4a8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a9998d;
+}

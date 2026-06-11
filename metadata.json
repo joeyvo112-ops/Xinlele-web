@@ -1,0 +1,6 @@
+{
+  "name": "Xinlele Landing Page",
+  "description": "A highly-converting premium organic snack landing page with a retail checkout demo and a dedicated Wholesaler and HORECA bulk quotation and packaging customizer module.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
